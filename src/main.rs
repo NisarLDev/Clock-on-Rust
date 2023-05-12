@@ -1,3 +1,4 @@
+use chrono::{Local};
 const DIGITS : [[&str; 11]; 7] = [
     ["┏━┓ ","  ╻  "," ┏━┓ ", " ┏━┓ "," ╻ ╻ "," ┏━┓ "," ┏   "," ┏━┓ "," ┏━┓ "," ┏━┓ ","   "],
     ["┃ ┃ ","  ┃  ","   ┃ ", "   ┃ "," ┃ ┃ "," ┃   "," ┃   ","   ┃ "," ┃ ┃ "," ┃ ┃ "," ╻ "],
@@ -9,5 +10,6 @@ const DIGITS : [[&str; 11]; 7] = [
 ];
 
 fn main() {
-    println!("Hello, world!");
+    let t: DateTime<Local> = Local::now();	
+    println!("{:?}", t);
 }
