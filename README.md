@@ -25,3 +25,6 @@ Digital clock programme on Rust Language
     https://lib.rs/date-and-time
 
 8 - https://rustrepo.com/repo/chronotope-chrono-rust-date-and-time
+
+
+9 - https://rustrepo.com/repo/fast-and-simple-datetime-date-time-and-duration-parsing-for-rust
