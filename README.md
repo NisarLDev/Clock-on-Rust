@@ -32,3 +32,5 @@ Digital clock programme on Rust Language
 10 - https://docs.rs/chrono/latest/chrono/struct.DateTime.html#method.timestamp_micros%20we%20need%20small%20unit%20for%20timestamp
 
 11 - https://www.reddit.com/r/rust/comments/qamgyh/is_the_chrono_crate_unmaintained/
+
+12 - https://strawlab.org/strand-braid-api-docs/latest/chrono/struct.DateTime.html
